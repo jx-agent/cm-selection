@@ -30,7 +30,7 @@ body {
 
 .plans {
   width: 96%;
-  max-width: 1128px;
+  max-width: 100%;
   margin: 0 auto;
 }
 .plans__container {
@@ -85,6 +85,9 @@ body {
 .planItem--entp {
   --bgColor: var(--blue);
 }
+.planItem--entp2 {
+  background-color: #e47325 ;
+}
 .planItem--entp .card {
   --titleColor: #fff;
   --descColor: rgb(255 255 255 / 80%);
@@ -92,6 +95,17 @@ body {
 .planItem--entp .card__icon {
   background-image: var(--entpIcon);
   background-size: cover;
+}
+
+.planItem--entp2 .card__icon {
+  background-image: var(--entpIcon);
+  color: #000;
+  background-size: cover;
+}
+
+.planItem--entp2 .card {
+  color: #000;
+  --descColor: #000;
 }
 .planItem--entp .price,
 .planItem--entp .featureList {
@@ -135,7 +149,7 @@ body {
 }
 .button--white {
   --bgColor: #fff;
-  color: #000;
+   color: #000;
   --shadowColor: rgb(255 255 255 / 20%);
   --outline: #fff;
 }
@@ -239,6 +253,33 @@ body {
   --height: 1.125rem;
   --icon: var(--close);
 }
+
+
+
+.featureList2 li {
+  color: #000000;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.featureList2 li:before {
+  content: "";
+  background-image: var(--icon);
+  background-size: cover;
+  display: block;
+  width: 1.125rem;
+  height: var(--height);
+}
+.featureList2 li:last-child {
+  margin-bottom: 0;
+}
+.featureList2 li.disabled {
+  --color: #000000;
+  --height: 1.125rem;
+  --icon: var(--close);
+}
+
 
 .symbol {
   --big: 2.625rem;

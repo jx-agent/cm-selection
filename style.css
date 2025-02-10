@@ -66,6 +66,29 @@ text-decoration: none;
   display: inline-flex;
   flex-direction: column;
     text-decoration: none;
+  transition: 0.3s;
+
+  
+}
+
+.planItem:hover {
+  --border: 2px solid #0e161d;
+  --bgColor: #63a2db;
+  --boxShadow: none;
+  background-color: var(--bgColor);
+  border: var(--border);
+  border-radius: 1rem;
+box-shadow:
+  1.1px 1.1px 2.2px rgba(0, 0, 0, 0.031),
+  2.7px 2.7px 5.3px rgba(0, 0, 0, 0.044),
+  5px 5px 10px rgba(0, 0, 0, 0.055),
+  8.9px 8.9px 17.9px rgba(0, 0, 0, 0.066),
+  16.7px 16.7px 33.4px rgba(0, 0, 0, 0.079),
+  40px 40px 80px rgba(0, 0, 0, 0.11)
+;  padding: 2rem 1.5rem;
+  display: inline-flex;
+  flex-direction: column;
+    text-decoration: none;
 
   
 }

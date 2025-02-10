@@ -45,6 +45,8 @@ body {
 .plansHero__title {
   font-weight: 700;
   font-size: 2rem;
+text-decoration: none;
+
   margin: 0 0 1rem 0;
   color: #000;
 }
@@ -63,6 +65,9 @@ body {
   padding: 2rem 1.5rem;
   display: inline-flex;
   flex-direction: column;
+    text-decoration: none;
+
+  
 }
 .planItem__container {
   --direction: column;
@@ -133,6 +138,8 @@ body {
   font-family: inherit;
   font-size: 1rem;
   font-weight: 600;
+  text-align: center;
+  text-decoration: none;
   background-color: var(--bgColor);
   color: var(--color);
   cursor: pointer;
@@ -180,6 +187,7 @@ body {
   font-size: 1.5rem;
   line-height: 1.2;
   font-weight: 400;
+  text-decoration: none;
   margin: 0;
   flex-grow: 1;
 }

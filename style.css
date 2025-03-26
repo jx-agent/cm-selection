@@ -339,26 +339,6 @@ box-shadow:
   transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 640px) {
-  .plans {
-    max-width: 480px;
-    width: 90%;
-  }
-
-  .planItem__container {
-    --direction: row;
-  }
-}
-@media screen and (min-width: 641px) and (max-width: 768px) {
-  :root {
-    --baseSize: 12px;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 1080px) {
-  :root {
-    --baseSize: 14px;
-  }
-}
 
 
 /* Extra Small Devices (Phones, <576px) */
